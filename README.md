@@ -1,4 +1,6 @@
-# Homework-Three-Password-Generator
+# Welcome!
+
+![image of numbers](https://user-images.githubusercontent.com/55456375/70283065-19d59500-177d-11ea-9e50-03a5d752dc79.png)
 
 In this specific example we are using 
 - functions, 
