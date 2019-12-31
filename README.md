@@ -3,7 +3,6 @@
 ![image of numbers](https://user-images.githubusercontent.com/55456375/70283065-19d59500-177d-11ea-9e50-03a5d752dc79.png)
 
 ## Assignment Overview
-Description
 Create an application that generates a random password based on user-selected criteria. This app will run in the browser and feature dynamically updated HTML and CSS powered by your JavaScript code.
 The user will be prompted to choose from the following password criteria:
 
