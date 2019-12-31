@@ -6,10 +6,11 @@ var specialCharacters = ["&", "$", "@", "%", "!"];
 console.log(lowerCase[0]); //this outputs a in the console, good 
 console.log(specialCharacters[2]); //this outputs @ in the console, good
 
-//for loop, but what do you need to make index greater or less than? 8 and 128... 
+//for loop to go through variables, but what do you need to make index greater or less than? 8 and 128... 
 function generatePassword () {
    
 }
+
 
 //alerts that will prompt the user to stay within parameters 
 function passwordQuestions() {    
