@@ -3,6 +3,8 @@
 }
 
 .small-box {
+    padding: 10%;
+    float: left;
     background: white;
 }
 
@@ -13,4 +15,8 @@
 
 .btn-secondary {
     background-color: lightblue;
+}
+
+#display {
+    border-style: dashed;
 }
