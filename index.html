@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="eng">
+    <head>
+        <title>Password Producer for the People</title>
+<!--link bootstrap elements, has to go above CSS so it doesn't overwrite-->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">    </head>
+<!--link your styling css-->
+        <link rel="stylesheet" type="text/css" href="theme.css">
+    <body>
+    <div class = "container">
+        <div class = "row">
+                <div class = "parent-box">
+                    <h1>Password Generator</h1>
+                </div>
+                <div class = "small-box">
+                    <h2>Generate a Password</h2>
+                    <hr>
+                    <input type = "text" id="display">
+                    <hr>
+                    <br/>
+                    <button type="button" id= "generate" class="btn btn-primary btn-lg">Generate Password</button>
+                    <button type="button" class="btn btn-secondary btn-lg">Copy to Clipboard</button>
+                </div>
+                </div>
+            </div> <!--ending div for container-->
+
+<!--link javascript at the bottom of your html page-->           
+        <script type="text/javascript" src="myscripts.js"></script>
+    </body>
+</html>
