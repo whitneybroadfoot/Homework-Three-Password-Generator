@@ -21,6 +21,8 @@ function passwordQuestions() {
     } else {
         var passOptions = []
 
+        var passwordResult = ""
+
         var specialChar = confirm("Click OK to include special characters");
             if(specialChar){
                 passOptions = passOptions.concat(specialCharacters)
@@ -39,14 +41,28 @@ function passwordQuestions() {
             }
             console.log(passOptions);
         
-
         var numberPass = confirm("Click OK to include numbers");
             if(numberPass){
                 passOptions = passOptions.concat(numbers)
             }
-            console.log(passOptions);    
+            console.log(passOptions);   
+//if user says no
+    if (passOptions.length === 0) {
+        alert("Please say Ok to one option");
+        return;
+    }
+    
+    //for loop 
+    
+    for (var i = 0; i < passwordLength; i++){
+        //randomize options math.random(); week 3 activity 23 -- 6 rock, paper, scissor 
+        var passLetters = passOptions [Math.floor(Math.random() * passOptions.length)];
+        console.log(passLetters);
+        //password result += whatever the random value is 
+        passwordResult += passLetters 
+}
+    document.getElementById("display").value= passwordResult
     } 
 }
 
-//create for loop to choose password
-// for (var = 0; i<= )
+
