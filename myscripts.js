@@ -26,9 +26,11 @@ function passwordQuestions() {
     }      
 
 //once cycled through alerts, possible password values
-let values = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnop0123456789!@#$%^&*()/?"
 
-let password = "";
+var lowerCase = ["a", "b", "c", "d", "e"];
+var upperCase = ["A", "B", "C", "d", "e"];
+var numbers = ["1", "2", "3", "4", "5",];
+var specialCharacters = ["&", "$", "@", "%", "!"];
 
 //create for loop to choose password
-for (var= 0; i<= )
+for (var = 0; i<= )
