@@ -1,18 +1,7 @@
-var lowerCase = ["a", "b", "c", "d", "e"];
-var upperCase = ["A", "B", "C", "d", "e"];
-var numbers = ["1", "2", "3", "4", "5",];
-var specialCharacters = ["&", "$", "@", "%", "!"];
-
-console.log(lowerCase[0]); //this outputs a in the console, good 
-console.log(specialCharacters[2]); //this outputs @ in the console, good
-
-//********************************************************************************* */
-
-
+//on click event for the password button to generate alerts
 document.getElementById("generate").onclick = function(){
     alert("Some questions about your password");
   }
-
 
 //alerts that will prompt the user to stay within parameters 
 function passwordQuestions() {    
@@ -36,8 +25,7 @@ function passwordQuestions() {
         console.log(numberPass);
     }      
 
-
-//possible password values
+//once cycled through alerts, possible password values
 let values = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnop0123456789!@#$%^&*()/?"
 
 let password = "";
